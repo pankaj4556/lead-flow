@@ -1,0 +1,14 @@
+# Crawling configurations for LeadFlow CRM
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /services
+Allow: /contact
+Allow: /book
+
+# Disallow crawler indexing of protected admin pathways
+Disallow: /admin/
+Disallow: /admin/dashboard
+Disallow: /api/
+
+Sitemap: https://yourdomain.com/sitemap.xml
